@@ -1,0 +1,17 @@
+modLoader = "javafml" # не міняти
+loaderVersion = "[47,)" # для Forge 47.x (твій 47.3.22)
+license = "MIT"
+
+[[mods]]
+modId = "islandsmod"
+version = "1.0.0"
+displayName = "Islands Mod"
+description = "A mod about generating islands."
+
+[[dependencies.islandsmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+

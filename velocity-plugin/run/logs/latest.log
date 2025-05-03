@@ -1,0 +1,17 @@
+[14:12:49] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.4.0-SNAPSHOT (git-bd2bb632-b496)...
+[14:12:49] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[14:12:50] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use epoll channels, libdeflate (Linux x86_64) compression, OpenSSL 3.x.x (Linux x86_64) ciphers
+[14:12:50] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[14:12:50] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[14:12:50] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[14:12:50] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Proxy Server Manager plugin loaded!
+[14:12:50] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin nestworld 1.0-SNAPSHOT by 
+[14:12:50] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[14:12:50] [Netty epoll Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[14:12:50] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1,28s)!
+[14:12:51] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Igor (/127.0.0.1:48824) has connected
+[14:12:51] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Igor -> lobby has connected
+[14:22:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Igor (/127.0.0.1:48824) has disconnected
+[14:22:47] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Igor -> lobby has disconnected
+[14:23:13] [Shutdown thread/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[14:23:13] [Shutdown thread/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565
