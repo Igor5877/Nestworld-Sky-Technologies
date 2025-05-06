@@ -1,0 +1,21 @@
+name: Deploy to Minecraft Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /opt/Minecraftserver  # Шлях до твоєї папки на сервері
+            git pull
+            systemctl restart minecraft.service || ./start.sh
