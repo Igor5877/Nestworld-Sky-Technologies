@@ -16,6 +16,6 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /opt/Minecraftserver  # Шлях до твоєї папки на сервері
+            cd /root  # Шлях до твоєї папки на сервері
             git pull
             systemctl restart minecraft.service || ./start.sh
